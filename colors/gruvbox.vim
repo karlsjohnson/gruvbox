@@ -945,14 +945,16 @@ call s:HL('htmlLink', s:fg4, s:none, s:underline)
 hi! link htmlSpecialChar GruvboxOrange
 
 "call s:HL('htmlBold', s:vim_fg, s:vim_bg, s:bold)
-call s:HL('htmlBold', s:red, s:vim_bg, s:bold)
+call s:HL('htmlBold', s:orange, s:vim_bg, s:bold)
 call s:HL('htmlBoldUnderline', s:vim_fg, s:vim_bg, s:bold . s:underline)
 call s:HL('htmlBoldItalic', s:vim_fg, s:vim_bg, s:bold . s:italic)
 call s:HL('htmlBoldUnderlineItalic', s:vim_fg, s:vim_bg, s:bold . s:underline . s:italic)
 
 call s:HL('htmlUnderline', s:vim_fg, s:vim_bg, s:underline)
 call s:HL('htmlUnderlineItalic', s:vim_fg, s:vim_bg, s:underline . s:italic)
-call s:HL('htmlItalic', s:vim_fg, s:vim_bg, s:italic)
+"call s:HL('htmlItalic', s:vim_fg, s:vim_bg, s:italic)
+call s:HL('htmlItalic', s:yellow, s:vim_bg, s:italic)
+call s:HL('htmlH2', s:red, s:vim_bg, s:italic)
 
 " }}}
 " Xml: {{{
