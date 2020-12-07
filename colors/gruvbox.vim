@@ -960,7 +960,7 @@ hi! link htmlH4 GruvboxYellowBold
 hi! link htmlH5 GruvboxAquaBold
 hi! link htmlBold GruvboxPurpleBold
 hi! link htmlItalic GruvboxPurple
-hi! link htmlkUnderline GruvboxBlue
+hi! link htmlUnderline GruvboxBlue
 
 " }}}
 " Xml: {{{
