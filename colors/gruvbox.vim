@@ -1331,7 +1331,8 @@ hi! link scalaInterpolation GruvboxAqua
 call s:HL('markdownItalic', s:fg3, s:none, s:italic)
 
 hi! link markdownH1 GruvboxRedBold
-hi! link markdownH2 GruvboxAquaBold
+"hi! link markdownH2 GruvboxAquaBold
+call s:HL('markdownH2', s:red, s:none, s:bold)
 hi! link markdownH3 GruvboxYellowBold
 hi! link markdownH4 GruvboxYellowBold
 hi! link markdownH5 GruvboxYellow
@@ -1417,9 +1418,3 @@ endfunction
 " }}}
 
 " vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker:
-hi! link markdownH1 GruvboxRedBold
-hi! link markdownH2 GruvboxRedBold
-hi! link markdownH3 GruvboxYellowBold
-hi! link markdownH4 GruvboxYellowBold
-hi! link markdownH5 GruvboxYellow
-hi! link markdownH6 GruvboxYellow
