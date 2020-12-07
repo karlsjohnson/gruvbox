@@ -536,7 +536,7 @@ hi! link ModeMsg GruvboxYellowBold
 " 'Press enter' prompt and yes/no questions
 hi! link Question GruvboxOrangeBold
 " Warning messages
-hi! link WarningMsg GruvboxRedBold
+hi! link WarningMsg ruvboxRedBold
 
 " }}}
 " Gutter: {{{
