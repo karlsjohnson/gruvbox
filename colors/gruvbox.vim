@@ -16,7 +16,7 @@ if version > 580
   endif
 endif
 
-let g:colors_name='gruvbox'
+let g:colors_name='mygruvbox'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -944,7 +944,8 @@ call s:HL('htmlLink', s:fg4, s:none, s:underline)
 
 hi! link htmlSpecialChar GruvboxOrange
 
-call s:HL('htmlBold', s:vim_fg, s:vim_bg, s:bold)
+"call s:HL('htmlBold', s:vim_fg, s:vim_bg, s:bold)
+call s:HL('htmlBold', s:red, s:vim_bg, s:bold)
 call s:HL('htmlBoldUnderline', s:vim_fg, s:vim_bg, s:bold . s:underline)
 call s:HL('htmlBoldItalic', s:vim_fg, s:vim_bg, s:bold . s:italic)
 call s:HL('htmlBoldUnderlineItalic', s:vim_fg, s:vim_bg, s:bold . s:underline . s:italic)
