@@ -953,9 +953,13 @@ call s:HL('htmlBoldUnderlineItalic', s:vim_fg, s:vim_bg, s:bold . s:underline . 
 call s:HL('htmlUnderline', s:vim_fg, s:vim_bg, s:underline)
 call s:HL('htmlUnderlineItalic', s:vim_fg, s:vim_bg, s:underline . s:italic)
 "call s:HL('htmlItalic', s:vim_fg, s:vim_bg, s:italic)
-call s:HL('htmlItalic', s:yellow, s:vim_bg, s:italic)
-call s:HL('htmlH2', s:red, s:vim_bg, s:italic)
-hi! link htmlH3 GruvboxAquaBold
+hi! link htmlH1 GruvboxFg0
+hi! link htmlH2 GruvboxRedBold
+hi! link htmlH3 GruvboxOrangeBold
+hi! link htmlH4 GruvboxYellowBold
+hi! link htmlH5 GruvboxAquaBold
+hi! link htmlBold GruvboxOrange
+hi! link htmlItalic GruvboxPurple
 
 " }}}
 " Xml: {{{
@@ -1334,8 +1338,7 @@ hi! link scalaInterpolation GruvboxAqua
 call s:HL('markdownItalic', s:fg3, s:none, s:italic)
 
 hi! link markdownH1 GruvboxRedBold
-"hi! link markdownH2 GruvboxAquaBold
-call s:HL('markdownH2', s:red, s:none, s:bold)
+hi! link markdownH2 GruvboxAquaBold
 hi! link markdownH3 GruvboxYellowBold
 hi! link markdownH4 GruvboxYellowBold
 hi! link markdownH5 GruvboxYellow
