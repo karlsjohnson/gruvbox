@@ -1329,8 +1329,8 @@ hi! link scalaInterpolation GruvboxAqua
 
 call s:HL('markdownItalic', s:fg3, s:none, s:italic)
 
-hi! link markdownH1 GruvboxGreenBold
-hi! link markdownH2 GruvboxGreenBold
+hi! link markdownH1 GruvboxRedBold
+hi! link markdownH2 GruvboxAquaBold
 hi! link markdownH3 GruvboxYellowBold
 hi! link markdownH4 GruvboxYellowBold
 hi! link markdownH5 GruvboxYellow
