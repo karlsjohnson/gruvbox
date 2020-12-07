@@ -940,7 +940,7 @@ hi! link htmlScriptTag GruvboxPurple
 hi! link htmlTagN GruvboxFg1
 hi! link htmlSpecialTagName GruvboxAquaBold
 
-"call s:HL('htmlLink', s:fg4, s:none, s:underline)
+call s:HL('htmlLink', s:blue, s:none, s:underline)
 
 hi! link htmlSpecialChar GruvboxOrange
 
@@ -960,7 +960,7 @@ hi! link htmlH4 GruvboxYellowBold
 hi! link htmlH5 GruvboxAquaBold
 hi! link htmlBold GruvboxPurpleBold
 hi! link htmlItalic GruvboxPurple
-hi! link htmlLink GruvboxBlue
+"hi! link htmlLink GruvboxBlue
 
 " }}}
 " Xml: {{{
