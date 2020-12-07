@@ -958,8 +958,9 @@ hi! link htmlH2 GruvboxRedBold
 hi! link htmlH3 GruvboxOrangeBold
 hi! link htmlH4 GruvboxYellowBold
 hi! link htmlH5 GruvboxAquaBold
-hi! link htmlBold GruvboxOrange
+hi! link htmlBold GruvboxPurpleBold
 hi! link htmlItalic GruvboxPurple
+hi! link htmlkUnderline GruvboxBlue
 
 " }}}
 " Xml: {{{
