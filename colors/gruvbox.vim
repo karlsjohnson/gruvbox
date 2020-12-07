@@ -955,6 +955,7 @@ call s:HL('htmlUnderlineItalic', s:vim_fg, s:vim_bg, s:underline . s:italic)
 "call s:HL('htmlItalic', s:vim_fg, s:vim_bg, s:italic)
 call s:HL('htmlItalic', s:yellow, s:vim_bg, s:italic)
 call s:HL('htmlH2', s:red, s:vim_bg, s:italic)
+hi! link htmlH3 GruvboxAquaBold
 
 " }}}
 " Xml: {{{
